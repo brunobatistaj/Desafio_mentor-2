@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 100%, 74%);
+    color: white;
+    font-size: 16px;
+    max-width: 1440px;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1150px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url("\images\bg-intro-desktop.png")
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+.left h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.left p{
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.adv{
+    width: inherit;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 8px;
+    background-color: hsl(248, 32%, 49%);
+}
+
+form{
+    background-color: white;
+    height: 400px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form p{
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+}
+
+input{
+    width: 90%;
+    height: 50px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 0 0;
+    border: 1px solid hsl(246, 25%, 77%);
+    outline: 0;
+
+}
+input:hover{
+    border: 1px solid black;
+}
+
+form p a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
+
+#btn{
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: hsl(154, 59%, 51%);
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: hsl(154, 51%, 61%);
+}
