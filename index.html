@@ -22,10 +22,30 @@
     <section class="right">
       <div class="adv"><strong>Try it free 7 days</strong> then $20/mo. thereafter</div>
       <form>
+        <div>
         <input type="text" placeholder="First Name" id="name">
+        <span><img src="/images/icon-error.svg" alt="error" class="error_icon"></span>
+        <span class="fname">First Name cannot be empty</span>
+        </div>
+        
+        <div>
         <input type="text" placeholder="Last Name" id="surname">
+        <span><img src="/images/icon-error.svg" alt="error" class="error_icon"></span>
+        <span class="lname">Last Name cannot be empty</span>
+        </div>
+        
+        <div>
         <input type="email" placeholder="Email Address" name="email" id="email">
+        <span><img src="/images/icon-error.svg" alt="error" class="error_icon"></span>
+        <span class="femail">E-mail cannot be empty</span>
+        </div>
+
+        <div>
         <input type="password" placeholder="Password" name="password" id="password">
+        <span><img src="/images/icon-error.svg" alt="error" class="error_icon"></span>
+        <span class="fpass">Password cannot be empty</span>
+        </div>
+
         <input type="submit" value="Claim your free trial " id="btn">
         <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
       </form>
