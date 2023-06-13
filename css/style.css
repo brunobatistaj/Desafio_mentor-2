@@ -106,3 +106,52 @@ form p a{
 #btn:hover{
     background-color: hsl(154, 51%, 61%);
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .left{
+        text-align: center;
+    }
+
+    .right{
+        margin-right: 10px;
+        text-align: center;
+    }
+}
+@media (min-width: 1px) and (max-width: 767px){
+    .container{
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        background-image: url("\images\bg-intro-mobile.png")
+    }
+    .left h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    .left p{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .right{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:424px){
+    .adv{
+        height: 80px;
+        background-color: hsl(248, 32%, 49%);
+        word-wrap: break-word;
+        font-size: 20px;
+    }
+    form p{
+        word-wrap: break-word;
+        text-align: center;
+        font-weight: 400;
+        padding: 5px;
+    }
+}
